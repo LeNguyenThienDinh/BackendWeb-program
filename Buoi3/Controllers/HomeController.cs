@@ -34,5 +34,9 @@ namespace Buoi3.Controllers
         {
             return View();
         }
+        public ActionResult Product()
+        {
+            return View();
+        }
 	}
 }
