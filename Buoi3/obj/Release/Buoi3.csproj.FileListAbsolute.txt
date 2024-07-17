@@ -1,0 +1,17 @@
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\Buoi3.dll.config
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\Buoi3.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\Buoi3.pdb
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Helpers.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Mvc.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Razor.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Webpages.Deployment.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Webpages.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Webpages.Razor.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Razor.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Webpages.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Webpages.Deployment.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Webpages.Razor.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Helpers.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Mvc.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\obj\Release\Buoi3.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\obj\Release\Buoi3.pdb
