@@ -26,5 +26,13 @@ namespace Buoi3.Controllers
         {
             return View();
         }
+        public ActionResult Contact()
+        {
+            return View();
+        }
+        public ActionResult ContactAD()
+        {
+            return View();
+        }
 	}
 }

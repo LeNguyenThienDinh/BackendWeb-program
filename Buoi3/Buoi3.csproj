@@ -78,11 +78,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\css\about.css" />
+    <Content Include="Assets\css\Contact.css" />
     <Content Include="Assets\css\Login.css" />
     <Content Include="Assets\css\register.css" />
     <Content Include="Assets\css\sidebar.css" />
     <Content Include="Assets\css\StyleSheet1.css" />
     <Content Include="Assets\css\User.css" />
+    <Content Include="Assets\img\OIP.jpg" />
+    <Content Include="Assets\img\R.jpg" />
     <Content Include="Global.asax" />
     <None Include="Properties\PublishProfiles\PersonalWeb.pubxml" />
     <None Include="Properties\PublishProfiles\ThienDinh.pubxml" />
@@ -115,6 +118,8 @@
     <Content Include="Views\User\Login.cshtml" />
     <Content Include="Views\Home\User.cshtml" />
     <Content Include="Views\User\Register.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\ContactAD.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -124,7 +129,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Assets\img\" />
     <Folder Include="Assets\js\" />
     <Folder Include="Models\" />
   </ItemGroup>
