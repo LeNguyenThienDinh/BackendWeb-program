@@ -9,15 +9,25 @@
     <title>@ViewBag.Title</title>
     <link rel="stylesheet" href="/Assets/css/sidebar.css">
 </head>
+@{
+    var txt = "";
+    if (DateTime.Now.Hour > 12)
+    { txt = "Dont touch in the evening"; }
+    else
+    { txt = "Dont touch in the morning"; }
+}
 <body>
-
+    
     <div class="sidenav">
         <a href="/Home/About">About</a>
         <a href="#">Services</a>
         <a href="#">Clients</a>
         <a href="#">Contact</a>
     </div>
-    <h2>Index</h2>
+    <div class="main">
+        <p>@txt</p>
+        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a></p>
+    </div>
 </body>
 </html>
 
