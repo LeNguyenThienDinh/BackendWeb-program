@@ -35,7 +35,7 @@ namespace Buoi3.Controllers
         }
         public ActionResult Product()
         {
-            string connStr = @"Server = A204PC45\CSSQL08; Database= PhoneShop; Username= sa; Password = 123";
+            string connStr = @"Server = A204PC45\CSSQL08; Database= PhoneShop; User Id= sa; Password = 123";
             using (SqlConnection conn = new SqlConnection(connStr))
             {
                 try
