@@ -24,12 +24,17 @@ namespace Buoi3.Controllers
         [HttpPost]
         public ActionResult Login(string uname, string psw)
         {
+            if (string.IsNullOrEmpty(uname) || string.IsNullOrEmpty(psw))
+            {
+                ViewBag.ErrorMessage = "Username and password cannot be empty";
+                return View();
+            }
 
-            var user = db.Accounts.FirstOrDefault(u => u.Username.Equals(uname, StringComparison.OrdinalIgnoreCase) && u.Password.Equals(psw, StringComparison.Ordinal));
+            var user = db.Accounts.FirstOrDefault(u => u.Username == uname && u.Password == psw);
 
             if (user != null)
             {
-                return RedirectToAction("Index");
+                return RedirectToAction("Success");
             }
             else
             {

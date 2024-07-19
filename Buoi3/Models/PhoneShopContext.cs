@@ -22,6 +22,7 @@ namespace Buoi3.Models
         public PhoneShopContext()
             : base("PhoneShopDbConnection")
         {
+            Database.Initialize(false);
         }
 
         public DbSet<Account> Accounts { get; set; }
