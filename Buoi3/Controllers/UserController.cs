@@ -25,7 +25,8 @@ namespace Buoi3.Controllers
         public ActionResult Login(string uname, string psw)
         {
 
-            var user = db.Accounts.FirstOrDefault(u => u.Username == uname && u.Password == psw);
+            var user = db.Accounts.FirstOrDefault(u => u.Username.Equals(uname, StringComparison.OrdinalIgnoreCase) && u.Password.Equals(psw, StringComparison.Ordinal));
+
             if (user != null)
             {
                 return RedirectToAction("Index");
@@ -38,6 +39,10 @@ namespace Buoi3.Controllers
         }
 
         public ActionResult Register()
+        {
+            return View();
+        }
+        public ActionResult Success()
         {
             return View();
         }

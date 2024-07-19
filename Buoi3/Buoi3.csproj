@@ -130,6 +130,7 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\ContactAD.cshtml" />
     <Content Include="Views\Home\product.cshtml" />
+    <Content Include="Views\User\Success.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
