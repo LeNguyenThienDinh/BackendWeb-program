@@ -16,3 +16,7 @@ E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\System.Web.Mvc
 E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\obj\Debug\Buoi3.csprojResolveAssemblyReference.cache
 E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\obj\Debug\Buoi3.dll
 E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\obj\Debug\Buoi3.pdb
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\EntityFramework.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\EntityFramework.SqlServer.dll
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\EntityFramework.xml
+E:\LuuDuLieuSinhVien\2001215723_LeNguyenThienDinh\Buoi3\Buoi3\bin\EntityFramework.SqlServer.xml

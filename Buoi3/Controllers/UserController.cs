@@ -3,24 +3,43 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Buoi3.Models;
 
 namespace Buoi3.Controllers
 {
     public class UserController : Controller
     {
-        //
-        // GET: /User/
+        private PhoneShopContext db = new PhoneShopContext();
+
         public ActionResult Index()
         {
             return View();
         }
+
         public ActionResult Login()
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Login(string uname, string psw)
+        {
+
+            var user = db.Accounts.FirstOrDefault(u => u.Username == uname && u.Password == psw);
+            if (user != null)
+            {
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                ViewBag.ErrorMessage = "Invalid username or password";
+                return View();
+            }
+        }
+
         public ActionResult Register()
         {
             return View();
         }
-	}
+    }
 }
