@@ -228,3 +228,18 @@ REFERENCES [dbo].[CongtySX] ([MaCongtySX])
 GO
 ALTER TABLE [dbo].[ThamGia] CHECK CONSTRAINT [FK_ThamGia_CongtySX]
 GO
+
+-- Create the Account table
+CREATE TABLE [dbo].[Account] (
+    [MaTK] NVARCHAR(50) NOT NULL,
+    [TenTK] NVARCHAR(50) NULL,
+    [Username] NVARCHAR(50) NULL,
+    [Password] NVARCHAR(50) NULL,
+    CONSTRAINT [PK_Account] PRIMARY KEY CLUSTERED ([MaTK] ASC)
+) ON [PRIMARY];
+
+-- Insert data into the Account table
+INSERT INTO [dbo].[Account] ([MaTK], [TenTK], [Username], [Password])
+VALUES ('AD1', 'Tai1', 'TK1', '123');
+
+

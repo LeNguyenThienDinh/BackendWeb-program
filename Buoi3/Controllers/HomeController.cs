@@ -62,8 +62,6 @@ namespace Buoi3.Controllers
                     listProduct.Add(t);
                 }
 
-
-
                 return View(listProduct);
             }
         }
