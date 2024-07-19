@@ -241,5 +241,7 @@ CREATE TABLE [dbo].[Account] (
 -- Insert data into the Account table
 INSERT INTO [dbo].[Account] ([MaTK], [TenTK], [Username], [Password])
 VALUES ('AD1', 'Tai1', 'TK1', '123');
+select * from Account
+
 
 
