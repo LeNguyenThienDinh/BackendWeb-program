@@ -1,0 +1,34 @@
+﻿@using Buoi3.Models
+@{
+    ViewBag.Title = "Product";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="/Assets/css/sidebar.css">
+</head>
+
+<body>
+
+    <div class="sidenav">
+        <a href="/Home/About">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="/Home/Contact">Contact</a>
+    </div>
+    <div class="main">
+        <h2>Product</h2>
+        @foreach (var t in Model)
+        {
+            <div>@t.MaDT - @t.TenDienThoai - @t.GiaBan</div>
+        }
+    </div>
+</body>
+</html>
+
+

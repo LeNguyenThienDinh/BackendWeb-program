@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="/Assets/css/sidebar.css">
+</head>
+@{
+    var txt = "";
+    if (DateTime.Now.Hour > 12)
+    { txt = "Dont touch in the evening"; }
+    else
+    { txt = "Dont touch in the morning"; }
+}
+<body>
+    
+    <div class="sidenav">
+        <a href="/Home/About">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="/Home/Contact">Contact</a>
+    </div>
+    <div class="main">
+        <p>@txt</p>
+        <p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">https://www.youtube.com/watch?v=dQw4w9WgXcQ</a></p>
+    </div>
+</body>
+</html>
+

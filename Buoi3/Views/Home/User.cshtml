@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "User";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+    var user = Session["User"] as Buoi3.Models.Account;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/Assets/css/User.css" />
+</head>
+<body>
+    <h2>User</h2>
+    <div class="user-options">
+        @if (user != null)
+        {
+            <a href="@Url.Action("Logout", "User")" class="btn btn-primary">Logout</a>
+        }
+        else
+        {
+            <a href="@Url.Action("Login", "User")" class="btn btn-primary">Login</a>
+            <a href="@Url.Action("Register", "User")" class="btn btn-secondary">Register</a>
+        }
+    </div>
+</body>
+</html>
+
